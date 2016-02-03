@@ -11,8 +11,30 @@ import UIKit
 class ViewController: UIViewController {
     
     //Esto es un comentario
+    
+var numeros = 1...100
 
-    override func viewDidLoad() {
+for i in numeros
+    {
+    
+    if i % 5 == 0 {
+    print("\(i) BINGO")
+    }
+    if i % 2 == 0
+    {
+    print("\(i) PAR")
+    }
+    if i % 2 == 1
+    {
+    print("\(i) IMPAR")
+    }
+    if i < 40 && i > 30
+    {
+    print("\(i) VIVA SWIFT")
+    }
+    }
+    
+  override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
